@@ -80,7 +80,7 @@ export default function Uses() {
           </Tool>
           <Tool title="Notion">
             shits dope. i like to write and organize my life. it helps me focus. some great apis and tools to consume your own content too. hard to consider why not notion.
-            maybe there's a reason depending on who you are.
+            maybe there is a reason depending on who you are.
           </Tool>
         </ToolsSection>
       </div>
