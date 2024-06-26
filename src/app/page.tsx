@@ -155,7 +155,7 @@ function Resume() {
   let resume: Array<Role> = [
     {
       company: 'KPMG',
-      title: 'senior associate',
+      title: 'fullstack software developer',
       // logo: logoPlanetaria,
       start: '2021',
       end: {
@@ -165,7 +165,7 @@ function Resume() {
     },
     {
       company: 'Infosys',
-      title: 'senior associate',
+      title: 'software developer',
       // logo: logoAirbnb,
       start: '2021',
       end: '2019',
@@ -211,12 +211,16 @@ export default async function Home() {
   return (
     <>
       <Container className="mt-9">
-        <div className="max-w-2xl">
+        <section className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             Software engineer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m josh, a software engineer based in DC area. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum perspiciatis, nisi, consectetur, esse suscipit accusamus atque ratione amet voluptas doloribus natus repellendus corrupti sequi culpa excepturi! Doloremque tempore obcaecati tempora?
+            Hey my name is Josh and I love to build applications for the web. The web is a place where lots of interdisciplinary teams come together to try to meet a goal and I find this a joy to be a part of. Primarily a frontend-focused developer, I also enjoy working within the Python ecosystem.
+          </p>
+
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            Outside of work, I am trying to learn Spanish and get better at Chess. My brother currently destroys me at Chess and I really have to close the gap. 
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink href="https://x.com/joshdoesre88239" target="_blank" aria-label="Follow on X(Formerly Known as Twitter)" icon={XIcon} />
@@ -233,7 +237,7 @@ export default async function Home() {
               icon={LinkedInIcon}
             />
           </div>
-        </div>
+        </section>
       </Container>
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
